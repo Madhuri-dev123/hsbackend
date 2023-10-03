@@ -1,9 +1,107 @@
 {
-    "posts": [
-      { "id": 1, "title": "na istam server", "author": "ganesh" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+  "hospitals": [
+    {
+      "hospitalName": "yashoda",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAMAAAAt85rTAAAAwFBMVEX///8yL2r1hjQwLWkeGmEtKmfIx9UhHWImImQdGWAaFV99fJ0jH2Lr6/GTkq31hTH09Pimpbu9vM1ZV4QqJ2by8va1tMfY2OA6N3EoJGfi4upFQncUDl3OzdpJR3v1giv1fyFubJL/+/f6x6f0fRsAAFetrMD70bb2kEb84c/+8+tQTn6enbV1c5f4rHv3nF75uZD5s4b6xaT0dwD3pGwRClyEg6L83sv2llP70Lb97OH2kkmDgqFjYYtVU4H95ti8mMNAAAANk0lEQVR4nO1aeX+qOBcGAwIRRGncEAu1ahdta3utXW2//7d6z0lYgtXOnRmd+9Jfnj9aDIGcJzk5W9A0BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBYUj4nr8z+9WAveT26d9917ufp3/l7IcBW9+nDxf7bpzUUvi+Pa/lufgSGq1mp/cflHF17vEhzvPf0KmQ+IaCdZq8eVnuf3Jj7Hdv/wzYh0Or4JgzY9LO/Fl4ovmWtWtTEYQ1FRaw5dJ1lp5gtcZwZrvX2eNn5O8sfIqquUEa/Fd2jSu+TnByhsZ7TInU0suRNNSIl19N3Ef52z8Gm8ptBY4v/xh8f49nmQ6fAmXsdTy+qfl+9cY+5mOxjHfcdIO/AlbsNDR5Hw5mYAhvZpIC1h9DS08YTwG9wA6+iBCmNj/CV6Q454z9NFJvN5r2goIxsnl7crPzWrFMeaeQjiEV0wvaskdxG0XSe4Yq44rzBsyjwc2JuFJ4ENShDZVxwXYlXglrse1ibAs95PPbx6pGC4mvn8pDMo4Xoq2y51ZcFXxlMQTQWj8Joi+Vn/9xk8vy+Xy4YUzGa9+CZMylqow46uX5f398uWqgt5i/HKXJEkMSCbJCpPdp7dygWl8sYrTHkm8eqkWx/HST7KALLk8fxXSlxbqvJZIMWmc+A",
+      "area": "Hitech city",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "ICU",
+          "price": "5000"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedtype": "",
+          "bedprice": "9000",
+          "patients": [],
+          "bedId": "1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "",
+          "bedprice": "9000",
+          "patients": [],
+          "bedId": "2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "",
+          "bedprice": "9000",
+          "patients": [],
+          "bedId": "3"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "",
+          "bedprice": "9000",
+          "patients": [],
+          "bedId": "4"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "",
+          "bedprice": "9000",
+          "patients": [],
+          "bedId": "5"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "",
+          "bedprice": "9000",
+          "patients": [],
+          "bedId": "6"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "hospitalName": "yashoda",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAMAAAAt85rTAAAAwFBMVEX///8yL2r1hjQwLWkeGmEtKmfIx9UhHWImImQdGWAaFV99fJ0jH2Lr6/GTkq31hTH09Pimpbu9vM1ZV4QqJ2by8va1tMfY2OA6N3EoJGfi4upFQncUDl3OzdpJR3v1giv1fyFubJL/+/f6x6f0fRsAAFetrMD70bb2kEb84c/+8+tQTn6enbV1c5f4rHv3nF75uZD5s4b6xaT0dwD3pGwRClyEg6L83sv2llP70Lb97OH2kkmDgqFjYYtVU4H95ti8mMNAAAANk0lEQVR4nO1aeX+qOBcGAwIRRGncEAu1ahdta3utXW2//7d6z0lYgtXOnRmd+9Jfnj9aDIGcJzk5W9A0BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBYUj4nr8z+9WAveT26d9917ufp3/l7IcBW9+nDxf7bpzUUvi+Pa/lufgSGq1mp/cflHF17vEhzvPf0KmQ+IaCdZq8eVnuf3Jj7Hdv/wzYh0Or4JgzY9LO/Fl4ovmWtWtTEYQ1FRaw5dJ1lp5gtcZwZrvX2eNn5O8sfIqquUEa/Fd2jSu+TnByhsZ7TInU0suRNNSIl19N3Ef52z8Gm8ptBY4v/xh8f49nmQ6fAmXsdTy+qfl+9cY+5mOxjHfcdIO/AlbsNDR5Hw5mYAhvZpIC1h9DS08YTwG9wA6+iBCmNj/CV6Q454z9NFJvN5r2goIxsnl7crPzWrFMeaeQjiEV0wvaskdxG0XSe4Yq44rzBsyjwc2JuFJ4ENShDZVxwXYlXglrse1ibAs95PPbx6pGC4mvn8pDMo4Xoq2y51ZcFXxlMQTQWj8Joi+Vn/9xk8vy+Xy4YUzGa9+CZMylqow46uX5f398uWqgt5i/HKXJEkMSCbJCpPdp7dygWl8sYrTHkm8eqkWx/HST7KALLk8fxXSlxbqvJZIMWmc+A",
+      "area": "Hitech city",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "suit",
+          "price": "2000"
+        }
+      ],
+      "beds": [],
+      "id": 2
+    },
+    {
+      "hospitalName": "Apollo",
+      "image": "https://media.gettyimages.com/id/176487744/photo/the-apollo-hospitals-enterprise-ltd-logo-is-displayed-on-an-ambulance-parked-at-the-companys.jpg?s=612x612&w=0&k=20&c=dWV2Y2sPMaLVeLzfX1gU-fP3lPmMmHJ3LN2-5aMipoE=",
+      "area": "kphb",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "First Class",
+          "price": "1000"
+        }
+      ],
+      "beds": [],
+      "id": 3
+    }
+  ],
+  "patients": [],
+  "posts": [
+    {
+      "id": 1,
+      "title": "na istam server",
+      "author": "ganesh"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
